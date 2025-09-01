@@ -34,4 +34,4 @@ jobs:
         run: "gcloud info"
 
       - name: push to google artifact registry
-        run: "gcloud builds submit --tag us-central1-docker.pkg.dev/notely-470722/notely-ar-repo ."
+        run: "gcloud builds submit --tag us-central1-docker.pkg.dev/notely-470722/notely-ar-repo/notely-app:latest ."
